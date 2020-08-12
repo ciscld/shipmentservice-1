@@ -23,32 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3225c98-ec09-4e88-9996-fadbfd662991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/order.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/HealthEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/aggregate/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/commands/RegisterCartCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/commands/RegisterItemCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/controller/OrderRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/events/CartCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/events/ItemCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/events/listeners/ItemsCreatedEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/models/CartBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/models/ItemsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/queries/GetCartQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/queries/GetItemsQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/repository/CartProjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/repository/ItemEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infosys/api/order/repository/ItemRepositoryProjector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifests/kube.deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifests/kube.deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/Info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/SBApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/rest/v1/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/application/EndpointTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/application/HealthEndpointTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +77,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -114,16 +91,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.infosys.api.order.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="order.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="order.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.infosys.api.order.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,7 +118,7 @@
       <workItem from="1597187505111" duration="1277000" />
       <workItem from="1597188849173" duration="1017000" />
       <workItem from="1597190083247" duration="975000" />
-      <workItem from="1597191079791" duration="652000" />
+      <workItem from="1597191079791" duration="1473000" />
     </task>
     <servers />
   </component>
@@ -163,30 +141,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597191128533">
+    <state x="414" y="175" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597191808663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191128533" />
+    <state x="414" y="175" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191808663" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597191686941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191686941" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1597191581535">
+    <state width="1729" height="282" key="GridCell.Tab.0.bottom" timestamp="1597191998750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191581535" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1597191581535">
+    <state width="1729" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191998750" />
+    <state width="1729" height="282" key="GridCell.Tab.0.center" timestamp="1597191998749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191581535" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1597191581535">
+    <state width="1729" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191998749" />
+    <state width="1729" height="282" key="GridCell.Tab.0.left" timestamp="1597191998748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191581535" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1597191581535">
+    <state width="1729" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191998748" />
+    <state width="1729" height="282" key="GridCell.Tab.0.right" timestamp="1597191998750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191581535" />
+    <state width="1729" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191998750" />
+    <state width="1729" height="282" key="GridCell.Tab.1.bottom" timestamp="1597191998751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1729" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191998751" />
+    <state width="1729" height="282" key="GridCell.Tab.1.center" timestamp="1597191998751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1729" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191998751" />
+    <state width="1729" height="282" key="GridCell.Tab.1.left" timestamp="1597191998751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1729" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191998751" />
+    <state width="1729" height="282" key="GridCell.Tab.1.right" timestamp="1597191998751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1729" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597191998751" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1597191412776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

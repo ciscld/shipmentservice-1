@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://cloud.ibm.com">
-        <img src="https://my1.digitalexperience.ibm.com/8304c341-f896-4e04-add0-0a9ae02473ba/dxdam/2d/2d559197-6763-4e47-a2cb-8f54c449ff26/ibm-cloud.svg" height="100" alt="IBM Cloud">
+    <a href="https://infosys.com">
+        <img src="https://cloud.google.com/images/products/container-optimized-os/optimized-for-containers.png" height="100" alt="Containerization and Service Mesh">
     </a>
 </p>
 
@@ -16,17 +16,12 @@
 </p>
 
 
-# Create and deploy a basic Java Spring application
+# Cloud IOT Service Mesh for retail e-Commerce
 
-> We have applications available for [Node.js Express](https://github.com/IBM/node-express-app), [Go Gin](https://github.com/IBM/go-gin-app), [Python Flask](https://github.com/IBM/python-flask-app), [Python Django](https://github.com/IBM/python-django-app), [Java Spring](https://github.com/IBM/java-spring-app), [Java Liberty](https://github.com/IBM/java-liberty-app), [Swift Kitura](https://github.com/IBM/swift-kitura-app), [Android](https://github.com/IBM/android-app), and [iOS](https://github.com/IBM/ios-app).
+> Supported through Istio, Axon, CQRS, DDD, Micro Services.
 
-In this sample application, you will create a basic Java cloud application using Spring. This provides a good starting point for creating Java microservice applications running on [Spring](https://spring.io/). It contains no default application code, but comes with standard best practices, including a health check.
+This application provides a Cloud based IOT Hub to support e-commerce order management and shipment using micro services and service mesh. 
 
-Capabilities are provided through dependencies in the `pom.xml` file. The ports are set to the defaults of `8080` for http and `8443` for https and are exposed to the CLI in the `cli-config.yml` file. The ports are set in the `pom.xml` file and exposed to the CLI in the `cli-config.yml` file.
-
-The application exposes the following endpoints:
-* Health endpoint: `<host>:<port>/health` e.g. http://localhost:8080/health
-* Web content: `<host>:<port>`
 
 ## Steps
 
