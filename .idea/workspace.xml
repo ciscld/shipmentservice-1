@@ -24,8 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bda7b64d-9101-4b6d-8b93-3c9f6e5d0a09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shipmentservice-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597198994099</updated>
       <workItem from="1597198995638" duration="7762000" />
-      <workItem from="1597209741161" duration="60000" />
+      <workItem from="1597209741161" duration="630000" />
     </task>
     <servers />
   </component>
