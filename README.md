@@ -55,7 +55,7 @@ To get started building this application locally, you can either run the applica
 To build and run an application:
 
 1. `mvn install`
-2. `java -jar ./target/javaspringapp-1.0-SNAPSHOT.jar`
+2. `java -jar ./target/order-1.0-SNAPSHOT.jar`
 
 To run an application in Docker use the Docker file called `Dockerfile`. If you do not want to install Maven locally you can use `Dockerfile-tools` to build a container with Maven installed.
 
