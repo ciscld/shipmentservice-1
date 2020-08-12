@@ -1,4 +1,4 @@
-package com.infosys.api.order;
+package com.infosys.api.shipment;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;

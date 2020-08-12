@@ -1,4 +1,4 @@
-package com.infosys.api.order.commands;
+package com.infosys.api.shipment.commands;
 
 import lombok.Data;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
@@ -6,8 +6,9 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 import java.util.UUID;
 
 @Data
-public class RegisterCartCommand {
+public class SendShipment {
 	@TargetAggregateIdentifier
-	private final UUID cartIdentifier;
+	private final UUID orderIdentifier;
 	private final String name;
+
 }
