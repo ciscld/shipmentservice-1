@@ -24,7 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bda7b64d-9101-4b6d-8b93-3c9f6e5d0a09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifests/kube.deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifests/kube.deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shipmentservice-1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,19 +76,21 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shipment" />
+      <module name="shipmentservice-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.infosys.api.shipment.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,7 +105,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597198994099</updated>
-      <workItem from="1597198995638" duration="7078000" />
+      <workItem from="1597198995638" duration="7762000" />
+      <workItem from="1597209741161" duration="60000" />
     </task>
     <servers />
   </component>
@@ -119,6 +123,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1597202035632">
@@ -129,22 +134,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597200785283" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1597205375380">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1597209477617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597205375380" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1597205375380">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597209477617" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1597209477616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597205375380" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1597205375380">
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597209477616" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1597209477615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597205375380" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1597205375380">
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597209477615" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1597209477617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597205375380" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597209477617" />
     <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1597205148777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
