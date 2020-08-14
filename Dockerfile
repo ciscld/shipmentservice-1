@@ -22,10 +22,6 @@ RUN if [ $bx_dev_user != "root" ]; then useradd -ms /bin/bash -u $bx_dev_userid 
 
 FROM adoptopenjdk/openjdk8:ubi-jre
 
-# Added to resolve issue with folder access
-RUN mkdir ./chart/shipmentservice-2
-RUN chmod +x ./chart/shipmentservice-2
-
 # Copy over app from builder image into the runtime image.
 RUN mkdir /opt/app
 COPY --from=builder /app/target/shipment-service-1.0-SNAPSHOT.jar /opt/app/app.jar
