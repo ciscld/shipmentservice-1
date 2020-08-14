@@ -66,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../orderservice-1/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inventoryservice-1/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -110,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597198994099</updated>
       <workItem from="1597198995638" duration="7762000" />
-      <workItem from="1597209741161" duration="20060000" />
+      <workItem from="1597209741161" duration="21281000" />
     </task>
     <servers />
   </component>
@@ -138,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597200785283" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597390856635">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597394151423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597390856635" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597394151423" />
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597292980545" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1597357599900">
       <screen x="0" y="0" width="1920" height="1040" />
